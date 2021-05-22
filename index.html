@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="/common.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/fonts/stylesheet.css" />
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+  <script src="https://kit.fontawesome.com/8f2188671f.js" crossorigin="anonymous"></script>
+  <title>Заявки на аккредитацию</title>
+  <meta name="description" content="Заявки на аккредитацию" />
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__content container">
+    <div class="header__inner-logo">
+    <img class="header__logo" src="/static/images/logo.png" alt="">
+    <a class="header__title" href="/">
+      Единая платформа государственной программы субсидирования
+    </a>
+  </div>
+    <div class="header__inner">
+      <div class="header__inner-user">
+     <span class="header__oblast">Самарская область</span>
+     <button class="header__exit">Выйти</button>
+    </div>
+    <div class="header__user-logo"></div>
+    </div>
+
+  </div>
+</header>
+  <main class="content container">
+    <div class="menu">
+      <a href="/" class="menu__home menu__home_actived">Главная</a>
+      <a href="/" class="menu__pereob">Переоборудование</a>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <button class="menu__link menu__link_actived">Заявки на аккредитацию <span
+              class="menu__search">2</span></button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__link">Список установочных центров</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__link">Заявки на выплату</button>
+        </li>
+      </ul>
+    </div>
+    <section class="filter">
+      <form class="filter__form" action="#">
+        <input class="filter__search" type="text" placeholder="Поиск">
+        <button class="filter__button-search">Найти</button>
+      </form>
+
+      <div class="filter__content">
+        <span class="filter__title">Фильтр</span>
+        <ul class="filter__list">
+          <li class="filter__item filter__item_new">
+            <span class="filter__symbol">Новый</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Поле”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+          </li>
+          <li class="filter__item filter__item_alert">
+            <span class="filter__symbol filter__symbol_alert">2</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Далина”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner filter__stars-inner_2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+          </li>
+          <li class="filter__item filter__item_alert">
+            <span class="filter__symbol filter__symbol_alert">1</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Три Пять”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner filter__stars-inner_1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+            </div>
+            <div class="filter__more">
+              <ul class="filter__list-info">
+                <li class="filter__item-info">
+                  <div class="filter__status"></div>
+                  <span class="filter__title-doc">Оплата по договору №ГБО-2021-0002.pdf</span>
+                  <a class="filter__open-doc" href="/">Открыть</a>
+                  <button class="filter__choose">Одобрить</button>
+                </li>
+                <li class="filter__item-info">
+                  <div class="filter__status filter__status_red"></div>
+                  <span class="filter__title-doc">Договор №ГБО-2021-0002.pdf</span>
+                  <a class="filter__open-doc" href="/">Открыть</a>
+                  <button class="filter__choose filter__choose_check">На исправлении</button>
+                </li>
+                <li class="filter__item-info">
+                  <div class="filter__status filter__status_green"></div>
+                  <span class="filter__title-doc">Акт к договору №ГБО-2021-0002.pdf</span>
+                  <a class="filter__open-doc" href="/">Открыть</a>
+                  <button class="filter__choose filter__choose_yes">Одобрено</button>
+                </li>
+                <li class="filter__item-info">
+                  <div class="filter__status filter__status_red"></div>
+                  <span class="filter__title-doc">Выписка МСП к договору №ГБО-2021-0002.pdf</span>
+                  <a class="filter__open-doc" href="/">Открыть</a>
+                  <button class="filter__choose filter__choose_check">На исправлении</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="filter__item">
+            <span class="filter__symbol filter__symbol_none">Новый</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Далина”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner filter__stars-inner_4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+          </li>
+          <li class="filter__item">
+            <span class="filter__symbol filter__symbol_none">Новый</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Круг”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner filter__stars-inner_4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+          </li>
+          <li class="filter__item">
+            <span class="filter__symbol filter__symbol_none">Новый</span>
+            <div class="filter__inner">
+              <div class="filter__avatar"></div>
+              <div class="filter__info-block">
+                <span class="filter__title-info">ООО “Гора”</span>
+                <span class="filter__address">Г. Самара, ул. Садовая, 150</span>
+              </div>
+              <div class="filter__ready">
+                <span class="filter__text-ready">Готово</span>
+                <div class="filter__stars-outer">
+                  <div class="filter__stars-inner filter__stars-inner_4 filter__stars-inner_full"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__inner-2-inside">
+              <div class="filter__inner-docs">
+                <div class="filter__inner-status">
+                  <span class="filter__text-status">Статус документов</span>
+                  <span class="filter__volue-status">0/4</span>
+                </div>
+                <div class="filter__inner-check">
+                  <span class="filter__text-check">Не проверено</span>
+                  <span class="filter__volue-check">4</span>
+                </div>
+              </div>
+              <button class="filter__detail">Подробнее<div class="filter__open"></div>
+              </button>
+          </li>
+        </ul>
+        <div class="filter__pagination pagination">
+          <button type="button" class="pagination__btv pagination__btv_prev" title="Prev">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.40973 15.8199L2 8.41016L9.40973 1.00043" stroke="#C4C4C4" stroke-width="2" />
+            </svg>
+          </button>
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <button type="button" class="pagination__page pagination__page_actived" tabindex="1"
+                aria-label="Go to 1 page" title="1 page">1</button>
+            </li>
+            <li class="pagination__item">
+              <button type="button" class="pagination__page" aria-label="Go to 2 page" title="2 page">2</button>
+            </li>
+            <li class="pagination__item">
+              <button type="button" class="pagination__page" aria-label="..." title="3 page">...</button>
+            </li>
+            <li class="pagination__item">
+              <button type="button" class="pagination__page" aria-label="Go to 10 page" title="10 page">10</button>
+            </li>
+          </ul>
+          <button type="button" class="pagination__btv pagination__btv_next" title="Next">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.40961 1.00043L14.8193 8.41016L7.40961 15.8199" stroke="#2E2C6C" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
